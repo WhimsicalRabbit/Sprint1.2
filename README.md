@@ -33,4 +33,6 @@ new RabbitBuilder().setName(varName).
     setAge(varBreed).
     build()
 
-This is a better alternative to the usual and more prone-confusion form. Also the diffence between this an a setter is that, a builder is a way to create a complex object, on the other hand, a setter is a way to access an instance of a class when it's hideen from the user.
+This is a better alternative to the usual and more prone-confusion form. Also the diffence between this an a setter is that, a builder is a way to create a complex object, on the other hand, a setter is a way to access an instance of a class when it's hiden from the user.
+
+There is a very simple example coded to show how the code could look while making use of this design pattern.
